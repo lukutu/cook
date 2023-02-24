@@ -151,8 +151,11 @@ html{
   align-items: center;
   justify-content: space-evenly;
   margin-top: 12rem;
-  position: relative;
+  
 
+}
+.gallery-link{
+  position: relative;
 }
 .food-name{
   position: absolute;
