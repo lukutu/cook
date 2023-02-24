@@ -133,3 +133,37 @@ html{
  }
 
  /*end of section 2*/
+ 
+ /*section 3*/
+.section-3{
+  background-color: #333;
+  padding: 5rem 0;
+
+}
+.food-img{
+  width: vw;
+  height: vw;
+  object-fit: cover;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 12rem;
+  position: relative;
+
+}
+.food-name{
+  position: absolute;
+  top: 2rem;
+  left: 6rem;
+  font-weight: 900;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-family: nunito;
+}
+
+ /*end of section 3*/
