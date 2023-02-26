@@ -20,14 +20,18 @@ html{
     width: 100%;
     height: 100%;
     background-color:#333333;
-    background-image: url(back.jpg);
+    background-image: url(back7.jpg);
+    background-size: cover;
     
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
  }
+
+
  .section-heading{
     font-size: 12rem;
     font-weight: 900;
@@ -36,7 +40,7 @@ html{
     text-transform: capitalize;
     letter-spacing: 0.5rem;
     text-shadow:0.3rem 0.3rem 0.3rem #000 ;
-    margin: top 12rem;
+     
  }
  .section-1-icons i{
     font-size: 25rem;
@@ -63,7 +67,9 @@ html{
     justify-content: space-between;
     padding: 10rem 0;
     background-color:#1f1515;
-    background-image: url(back1.jpg);
+    background-image: url(back7.jpg);
+    background-size: cover;
+ 
     
  }
  .cards-container{
@@ -145,6 +151,7 @@ html{
   background-color: #333;
   padding: 5rem 0;
   background-image: url(candy\ back.jpg);
+  background-size: cover;
 
 }
 .food-img{
