@@ -159,6 +159,7 @@ html{
   height: vw;
   object-fit: cover;
   box-shadow: 0.8rem 0.8rem 0.8rem #000;
+  border-radius: 0.5rem;
 }
 .gallery{
   display: flex;
