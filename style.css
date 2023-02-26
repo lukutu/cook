@@ -40,7 +40,7 @@ html{
     text-transform: capitalize;
     letter-spacing: 0.5rem;
     text-shadow:0.3rem 0.3rem 0.3rem #000 ;
-     
+    
  }
  .section-1-icons i{
     font-size: 25rem;
@@ -165,7 +165,7 @@ html{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 12rem;
+  margin-top: 8rem;
  
 
 }
@@ -210,13 +210,13 @@ html{
   
   position: absolute;
   bottom: 3vw;
-  left: 2rem;
+  left: 1rem;
   width: 70%;
   font-weight: 500;
   font-size: 1.5rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #eefcfc;
   font-family: nunito;
 
 }
