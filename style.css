@@ -96,10 +96,10 @@ html{
  .card::before{
    content: "";
    height: 100%;
-   width: 1rem;
+   width: 0.5rem;
    background-color: #817824;
    position: absolute;
-   top:0;
+   top: -1rem;
    left: -1rem;
    transform: skewY(45deg);
    transform-origin: right;
@@ -107,7 +107,7 @@ html{
  }
  .card::after{
    content: "";
-   height: 1rem;
+   height: 0.5rem;
    width: 100%;
    background-color: #8f8317;
    position: absolute;
@@ -158,6 +158,7 @@ html{
   width: vw;
   height: vw;
   object-fit: cover;
+  box-shadow: 0.8rem 0.8rem 0.8rem #000;
 }
 .gallery{
   display: flex;
@@ -170,7 +171,30 @@ html{
 }
 .gallery-link{
   position: relative;
+  margin: 4rem 1rem;
 }
+.gallery-link::before{
+  content: "";
+  width: 0.1rem;
+  height: 80%;
+  position: absolute;
+  background-color: #fff;
+  top: 2vw;
+  left: 80%;
+
+}
+.gallery-link::after{
+  content: "";
+  width: 90%;
+  height: 0.1rem;
+  position: absolute;
+  background-color: #fff;
+  top: 20%;
+  left: 2rem;
+
+}
+
+
 .food-name{
   position: absolute;
   top: 2rem;
@@ -181,6 +205,20 @@ html{
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-family: nunito;
+}
+.food-description{
+  
+  position: absolute;
+  bottom: 3vw;
+  left: 2rem;
+  width: 70%;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: nunito;
+
 }
 
  /*end of section 3*/
