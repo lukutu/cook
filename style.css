@@ -155,11 +155,18 @@ html{
 
 }
 .food-img{
-  width: vw;
-  height: vw;
+  width: 22vw;
+  height: 20vw;
   object-fit: cover;
-  box-shadow: 0.8rem 0.8rem 0.8rem #000;
-  border-radius: 0.5rem;
+  box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946, 0.7rem 0.7rem 0.1rem#297ce9, 0.9rem00.9rem 0.1rem#e92999;
+  transition: all 0.3s;
+
+}
+.gallery-link:hover .food-img{
+  box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946, 0.7rem 0.7rem 0.1rem#297ce9, 0.9rem00.9rem 0.1rem#e92999;
+  filter: blur(0.5rem);
+  opacity:;
+  transform: scale(1.1);
 }
 .gallery{
   display: flex;
@@ -182,6 +189,7 @@ html{
   top: 2vw;
   left: 80%;
   transition: height 0.5s;
+  z-index: 10;
 
 }
 .gallery-link:hover::before{
@@ -214,6 +222,7 @@ html{
   font-family: nunito;
   width: 0;
   overflow: hidden;
+  transition: width  0.5s;
 }
 .gallery-link:hover .food-name{
   width: 100%;
@@ -234,7 +243,12 @@ html{
   font-family: nunito;
   opacity: 0;
   visibility: hidden;
-
+  transition: opacity 0.3s;
+}
+.gallery-link:hover .food-description{
+  opacity: 1;
+  visibility: visible;
+  transition: 1s 1s;
 }
 
  /*end of section 3*/
