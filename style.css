@@ -252,3 +252,73 @@ html{
 }
 
  /*end of section 3*/
+
+ /*section 4*/
+ .section-4{
+  display: flex;
+  justify-content: space-around;
+  background-color: #222;
+  height: 30vh;
+  width: 100%;
+  padding: 3rem 0;
+  position: relative;
+  align-items: flex-start;
+
+ }
+ 
+ .section-4-text{
+  text-transform: uppercase;
+ }
+ .section-4-heading
+ {
+  font-weight: 900;
+  color: #8f8317;
+  font-size: 4rem;
+ }
+
+ .section-4-p{
+  font-size: 1.5rem;
+  color: #888;
+ }
+ .footer{
+  position: absolute;
+  bottom: 3rem;
+ }
+ .signup-form{
+   width: 380px;
+   max-width: 100%;
+   position: relative;
+ }
+ .signup-form input:first-child{
+  width: 100%;
+  display: inline-block;
+  padding: 14px 140px 14px 15px;
+  border: 2px solid#8f8317;
+  outline: none;
+  border-radius: 30px;
+
+ }
+.signup-form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #8f8317;
+  color: #fff;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  right: 6px;
+  top: 6px;
+  
+}
+.signup-form ::placeholder{
+  letter-spacing: 0.5rem;
+   font-family: nunito;
+  font-weight: 700;
+  
+}
+
+
+
+ /*end of section 4*/
