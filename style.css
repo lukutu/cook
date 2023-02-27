@@ -26,6 +26,11 @@ html{
   justify-content: center;
   align-items: center;
   box-shadow: 0.2rem 0.2rem 0.2rem #000;
+  transition: top 1s;
+ }
+ .navbar.pull{
+  top: 0;
+  transition: top 0.4s 0.2s ;
  }
 .navbar-link{
   color: #aaa;
@@ -34,7 +39,7 @@ html{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transition: 0.3s;
+  transition: color 0.3s;
 
 }
 .navbar-link i{
@@ -60,7 +65,12 @@ html{
   box-shadow: -0.1rem -0.1rem 0.1rem #000;
   cursor: pointer;
   box-shadow: 0.1rem 0 0.1rem #000;
+  transition:top 1.5s;
   
+}
+.menu.pull{
+  top: 15rem;
+  transition: top 0.4s;
 }
 .menu::before{
   content: "";
