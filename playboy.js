@@ -1,6 +1,6 @@
 document.querySelector('.menu').addEventListener('click',()=>{
     document.querySelectorAll('.target').forEach((item)=> {
-        item.classList.toggle('pull')
+        item.classList.toggle('change')
 
     })
 })
