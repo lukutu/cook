@@ -136,7 +136,7 @@ html{
  }
  .section-1-icons i{
     font-size: 25rem;
-    color: #444040;
+    color: #312222;
     position: absolute;
     transform:translate(-50%, -50%) scale(0);
     text-shadow: 0.3rem 0.3rem 0.3rem #000;
@@ -147,7 +147,7 @@ html{
     transition: transform 0.3s 0.3s;
 }
 .one{
-  color: #111;
+  color: #312222;
   font-weight: 900;
   font-family: nunito;
 }
@@ -173,7 +173,7 @@ html{
  }
  .card{
    width: 30rem;
-   background-color: rgb(196, 196, 46);
+   background-color: rgb(114, 99, 55);
    padding: 0.5 rem;
    display: flex;
    flex-direction: column;
