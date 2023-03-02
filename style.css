@@ -136,9 +136,7 @@ html{
  }
  .section-1-icons i{
     font-size: 25rem;
-    color: rgb(202, 133, 72);
-    color: rgb(218, 213, 208);
-    
+    color: #444040;
     position: absolute;
     transform:translate(-50%, -50%) scale(0);
     text-shadow: 0.3rem 0.3rem 0.3rem #000;
