@@ -182,7 +182,8 @@ html{
   height: 365px;
   width: 335px;
   padding: 20px 35px;
-  background: #191919;
+  background: #312222;
+  background: ;
   border-radius: 20px;
   margin: 15px;
   position: relative;
@@ -209,6 +210,10 @@ h5{
 }
 .two{
   color: #fd9b1af5;
+}
+.three{
+  color: #312222;
+  font-weight:900 ;
 }
 .bro p{
   color: #fcfc;
@@ -374,6 +379,7 @@ h5{
    max-width: 100%;
    position: relative;
    margin-right: -300px;
+   
  }
  .signup-form input:first-child{
   width: 100%;
@@ -456,5 +462,6 @@ h5{
   position: absolute;
   bottom: -45px;
   align-items: center;
+  color: black;
 }
  /*end of section 4*/
