@@ -18,7 +18,7 @@ html{
  .navbar{
   width: 100%;
   height: 14rem;
-  background-color: #fff;
+  background-color: #fff #000;
   position: fixed;
   top: -14rem;
   z-index: 100;
@@ -129,7 +129,7 @@ html{
     font-weight: 900;
     color: #fff;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: ;
     letter-spacing: 0.5rem;
     text-shadow:0.3rem 0.3rem 0.3rem #000 ;
     
