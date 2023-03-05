@@ -252,8 +252,9 @@ h5{
   width: 22vw;
   height: 20vw;
   object-fit: cover;
-  box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946, 0.7rem 0.7rem 0.1rem#297ce9, 0.9rem00.9rem 0.1rem#e92999;
+  box-shadow: 2rem 2 rem 2rem#000;
   transition: all 0.3s;
+  border-radius: 10px;
 
 }
 .gallery-link:hover .food-img{
@@ -268,11 +269,13 @@ h5{
   align-items: center;
   justify-content: space-evenly;
   margin-top: 8rem;
+  
 }
 
 .gallery-link{
   position: relative;
   margin: 4rem 1rem;
+  
 }
 .gallery-link::before{
   content: "";
