@@ -365,12 +365,14 @@ h5{
  
  .section-4-text{
   text-transform: uppercase;
+  margin-right: -50rem;
  }
  .section-4-heading
  {
   font-weight: 900;
   color: #8f8317;
   font-size: 4rem;
+  
  }
 
  .section-4-p{
@@ -471,16 +473,30 @@ h5{
   padding: 20px;
   font-family: 'Helvetica', serif;
   box-shadow: 5px 5px 7px 5px #888888;
+  align-content: center;
+  margin-right: 50rem;
+  background-color: transparent;
+  
+
 }
 
-.main h1 {
-  font-size: 40px;
+.main  {
+  font-size:40px;
   text-align: center;
   font-family: 'Helvetica', serif;
   
 }
+.container{
+  flex-direction: column;
+  size: 10px;
+  
+}
+.col-md-3{
+  border-radius: 30px;
 
-input {
+}
+
+input [type=text] {
   font-family: 'Helvetica', serif;
   width: 100%;
   font-size: 20px;
@@ -488,6 +504,8 @@ input {
   margin: 8px 0;
   border: none;
   border-bottom: 2px solid #767474;
+  align-items: center;
+  
 }
 
 input[type=submit] {
