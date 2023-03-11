@@ -128,13 +128,13 @@ html{
 
  .section-heading{
     font-size: 12rem;
-    font-weight: 900;
+    font-weight: ;
     color: #fff;
     text-align: center;
     text-transform: ;
     letter-spacing: 0.5rem;
     text-shadow:0.3rem 0.3rem 0.3rem #000 ;
-    font-family: ;
+    font-family: nunito;
     
  }
  .section-1-icons i{
