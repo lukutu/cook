@@ -531,7 +531,7 @@ input[type=submit] {
 .login-box {
   width: 350px;
   height: 400px;
-  background: rgb(214, 214, 214);
+  background: #8f8317;
   margin: 150px auto;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
