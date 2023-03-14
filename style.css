@@ -538,6 +538,10 @@ input[type=submit] {
   box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
   font-family:  monospace;
 }
+::placeholder{
+  font-family: monospace;
+  align-items: center;
+}
 
 img {
   width: 110px;
