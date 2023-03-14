@@ -536,6 +536,7 @@ input[type=submit] {
   margin: 150px auto;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+  font-family:  monospace;
 }
 
 img {
