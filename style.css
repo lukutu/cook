@@ -586,7 +586,7 @@ button {
   color: white;
   font-size: 20px;
   cursor: pointer;
-  box-shadow: -5px -5px 20px rgb(247, 240, 240), 5px 5px 20px #babecc;
+  box-shadow: -5px -5px 20px rgb(249, 245, 245), 5px 5px 20px #babecc;
   outline: none;
 }
 
