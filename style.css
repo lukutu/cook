@@ -133,8 +133,9 @@ html{
     text-align: center;
     text-transform: ;
     letter-spacing: 0.5rem;
-    text-shadow:0.3rem 0.3rem 0.3rem #000 ;
+    text-shadow:0.3rem 0.3rem 0.4rem #000 ;
     font-family: nunito;
+    
     
  }
  .section-1-icons i{
@@ -271,6 +272,7 @@ h5{
   align-items: center;
   justify-content: space-evenly;
   margin-top: 8rem;
+
   
 }
 
@@ -535,8 +537,9 @@ input[type=submit] {
   background: #f7c17af5;
   margin: 150px auto;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px #635b5b, -5px -5px 10px #000;
   font-family:  monospace;
+  text-shadow: 1px 1px 0 #fff;
 }
 ::placeholder{
   font-family: monospace;
@@ -582,11 +585,11 @@ button {
   border: none;
   height: 35px;
   border-radius: 25px;
-  background: #886e4af5;
+  background: #312222;
   color: white;
   font-size: 20px;
   cursor: pointer;
-  box-shadow: -5px -5px 20px rgb(249, 245, 245), 5px 5px 20px #babecc;
+  box-shadow:  1px 3px 4px #000;
   outline: none;
 }
 
