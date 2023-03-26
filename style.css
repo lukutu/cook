@@ -382,6 +382,7 @@ h5{
   font-weight: 900;
   color: #8f8317;
   font-size: 4rem;
+  margin-left: 900px;
   
   
  }
@@ -390,7 +391,7 @@ h5{
   font-size: 1.5rem;
   color: #888;
   position: relative;
-  margin-right: 600px;
+  margin-right: 800px;
  }
 
  .signup-form{
