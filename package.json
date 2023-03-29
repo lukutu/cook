@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lukutu/cook/issues"
   },
-  "homepage": "https://github.com/lukutu/cook#readme"
+  "homepage": "https://github.com/lukutu/cook#readme",
+  "dependencies": {
+    "mongoose": "^7.0.3"
+  }
 }
