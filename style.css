@@ -194,6 +194,7 @@ html{
   position: relative;
   overflow:hidden;
   text-align: center;
+ 
 }
 .card:hover{
   transform: rotateY(5deg)skewX(0deg)translateY(-3rem);
@@ -215,6 +216,7 @@ h5{
 }
 .two{
   color: #fd9b1af5;
+  font-family: monospace;
 }
 .three{
   color: #312222;
@@ -235,6 +237,7 @@ h5{
   padding: 9px 22px;
   border-radius: 30px;
   transition: .4s;
+  
 }
 .card .button:hover{
   background-color: transparent;
