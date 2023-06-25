@@ -87,7 +87,7 @@ html{
   top: 1rem;
   left: 5rem;
   background-color: #000;
-  border-radius: 800px 800px 400px 400px ;
+  border-radius: 8px 899px 400px 400px ;
   box-shadow: -0.1rem -0.1rem 0.1rem #000;
   cursor: pointer;
   box-shadow: 0.1rem 0 0.1rem #000;
@@ -278,7 +278,7 @@ h5{
   align-items: center;
   justify-content: space-around;
   margin-top: 8rem;
-  margin-left: -12rem;
+  margin-left: -12.5rem;
   margin-right: 14rem;
   
   
@@ -325,9 +325,9 @@ h5{
   position: absolute;
   top: -1rem;
   left: 20rem;
-  font-weight: 800;
+  font-weight: 900;
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-family: nunito;
@@ -350,7 +350,7 @@ h5{
   font-size: 1.8rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  color: #eefcfc;
+  color: #fff;
   font-family: nunito;
   opacity: 0;
   visibility: hidden;
@@ -370,7 +370,7 @@ h5{
   justify-content: space-around;
   background-color: #fccb8cf5;
   height: 30vh;
-  width: 100%;
+  width: 50%;
   padding: 3rem 0;
   position: relative;
   align-items: flex-start;
@@ -380,15 +380,17 @@ h5{
 
  .section-4-text{
   text-transform: uppercase;
-  margin-right: -50rem;
-  margin-right: 500px;
+  margin-right: 28rem;
+  
+ 
  }
  .section-4-heading
  {
   font-weight: 900;
   color: #8f8317;
   font-size: 4rem;
-  margin-left: 900px;
+  margin-left: 30rem;
+  margin-top: 2%;
   
   
  }
@@ -396,18 +398,22 @@ h5{
  .section-4-p{
   font-size: 1.5rem;
   color: #888;
-  position: relative;
-  margin-right: 800px;
+  margin-left: 30rem;
+  margin-top: 2%;
+  
  }
 
  .signup-form{
-   width: 380px;
+   width: 450px;
    max-width: 100%;
    position: absolute;
    margin-right: -900px;
-   
+   margin-top: 4%;
+   color: blue;
   
-   
+ }
+ .section-sign {
+  color: #fccb8cf5;
  }
  .signup-form input:first-child{
   width: 100%;
@@ -416,6 +422,7 @@ h5{
   border: 2px solid#8f8317;
   outline: none;
   border-radius: 30px;
+
 
  }
 .signup-form input:last-child{
