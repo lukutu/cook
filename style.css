@@ -296,8 +296,8 @@ h5{
   height: 0;
   position: absolute;
   background-color: #fff;
-  top: 2vw;
-  left: 80%;
+  top: -2vw;
+  left: 132%;
   transition: height 0.5s;
   z-index: 30;
 
