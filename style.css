@@ -343,11 +343,11 @@ h5{
   
   position: absolute;
   bottom: 10vw;
-  left: 13rem;
+  left: 12rem;
   width: 100%;
   font-weight: 500;
   font-size: 1.5rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   text-transform: uppercase;
   color: #eefcfc;
   font-family: monospace;
