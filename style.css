@@ -228,7 +228,7 @@ h5{
   line-height: 27px;
   margin-bottom: 25px;
 }
-.card .button{
+ .card .button{
   background-color: #fac682f5;
   color: #ffff;
   text-decoration: none;
@@ -239,7 +239,7 @@ h5{
   transition: .4s;
   
 }
-.card .button:hover{
+ .card .button:hover{
   background-color: transparent;
   border: 2px solid #fac682f5;
   cursor: pointer;
@@ -421,7 +421,9 @@ h5{
   border: 2px solid#8f8317;
   outline: none;
   border-radius: 30px;
-  color: #fccb8cf5;
+  color: #312222;
+  font-family: nunito;
+  font-weight: 600;
 
 
 
@@ -431,7 +433,7 @@ h5{
   display: inline-block;
   outline: none;
   border: none;
-  padding: 10px 30px;
+  padding: 11px 30px;
   border-radius: 30px;
   background-color: #8f8317;
   color: #fff;
@@ -439,7 +441,15 @@ h5{
   right: 6px;
   top: 3px;
   width: 30%;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black;
+  font-family: nunito;
   
+}
+.signup-form input:last-child:hover{
+  background-color:  #312222;
+  border: 2px solid #ffff;
+  cursor: pointer;
 }
 .signup-form ::placeholder{
   letter-spacing: 0.5rem;
