@@ -13,7 +13,14 @@
 }
 html{
     font-size: 50.5%;
+    
 }
+header{
+  height: 100vh;
+  height: 100svh;
+  position: relative;
+}
+
  /*end of common styles*/
  /*nav bar*/
  .navbar{
@@ -594,3 +601,4 @@ a {
   text-decoration: underline;
 }
 
+/** responsive**/
