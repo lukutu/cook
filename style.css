@@ -324,7 +324,7 @@ h5{
   position: absolute;
   top: -3rem;
   left: 13rem;
-  font-weight: 900;
+  font-weight: 800;
   color: #fff;
   font-size: 2rem;
   text-transform: uppercase;
@@ -347,10 +347,10 @@ h5{
   width: 100%;
   font-weight: 500;
   font-size: 1.5rem;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
   text-transform: uppercase;
   color: #eefcfc;
-  font-family: nunito;
+  font-family: monospace;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s;
