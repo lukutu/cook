@@ -15,11 +15,7 @@ html{
     font-size: 50.5%;
     
 }
-header{
-  height: 100vh;
-  height: 100svh;
-  position: relative;
-}
+
 
  /*end of common styles*/
  /*nav bar*/
@@ -137,7 +133,7 @@ header{
  .section-heading{
     font-size: 12rem;
     font-weight: ;
-    color: #fff;
+    color: green;
     text-align: center;
     text-transform: ;
     letter-spacing: 0.5rem;
