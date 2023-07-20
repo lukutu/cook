@@ -316,7 +316,7 @@ h5{
   height: 0.1rem;
   position: absolute;
   background-color: #fff;
-  top: 13%;
+  top: 8%;
   left: 13rem;
   transition: width 1.0s;
 
@@ -327,7 +327,7 @@ h5{
 
 .food-name{
   position: absolute;
-  top: -1rem;
+  top: -3rem;
   left: 20rem;
   font-weight: 900;
   color: #fff;
@@ -347,7 +347,7 @@ h5{
 .food-description{
   
   position: absolute;
-  bottom: 10vw;
+  bottom: 7vw;
   left: 12rem;
   width: 80%;
   font-weight: 500;
